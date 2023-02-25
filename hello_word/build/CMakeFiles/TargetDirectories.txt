@@ -1,0 +1,3 @@
+/home/yongman/projects/Cpp_Learn/hello_word/build/CMakeFiles/rebuild_cache.dir
+/home/yongman/projects/Cpp_Learn/hello_word/build/CMakeFiles/edit_cache.dir
+/home/yongman/projects/Cpp_Learn/hello_word/build/CMakeFiles/demo.dir
