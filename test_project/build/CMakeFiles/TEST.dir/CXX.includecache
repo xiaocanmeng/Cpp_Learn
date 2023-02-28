@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/Perfect_Forwarding.h
+
+../inc/Value_Category.h
+iostream
+-
+
+/home/yongman/projects/Cpp_Learn/test_project/main.cpp
+Value_Category.h
+/home/yongman/projects/Cpp_Learn/test_project/Value_Category.h
+Perfect_Forwarding.h
+/home/yongman/projects/Cpp_Learn/test_project/Perfect_Forwarding.h
+
+/home/yongman/projects/Cpp_Learn/test_project/src/Perfect_Forwarding.cpp
+boost/type_index.hpp
+-
+iostream
+-
+iostream
+-
+
+/home/yongman/projects/Cpp_Learn/test_project/src/Value_Category.cpp
+iostream
+-
+string
+-
+utility
+-
+Value_Category.h
+/home/yongman/projects/Cpp_Learn/test_project/src/Value_Category.h
+
