@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  
 
-CXX_DEFINES = 
+CXX_DEFINES = -DIostream=1
 
 CXX_INCLUDES = -I/home/yongman/projects/Cpp_Learn/test_project/inc 
 

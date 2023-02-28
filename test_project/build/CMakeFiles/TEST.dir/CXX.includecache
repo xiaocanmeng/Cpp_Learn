@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../inc/Dangling_references.h
+
+../inc/Iostream.h
+
 ../inc/Perfect_Forwarding.h
 
 ../inc/Value_Category.h
@@ -17,6 +21,16 @@ Value_Category.h
 /home/yongman/projects/Cpp_Learn/test_project/Value_Category.h
 Perfect_Forwarding.h
 /home/yongman/projects/Cpp_Learn/test_project/Perfect_Forwarding.h
+Dangling_references.h
+/home/yongman/projects/Cpp_Learn/test_project/Dangling_references.h
+Iostream.h
+/home/yongman/projects/Cpp_Learn/test_project/Iostream.h
+
+/home/yongman/projects/Cpp_Learn/test_project/src/Iostream.cpp
+iostream
+-
+Iostream.h
+/home/yongman/projects/Cpp_Learn/test_project/src/Iostream.h
 
 /home/yongman/projects/Cpp_Learn/test_project/src/Perfect_Forwarding.cpp
 boost/type_index.hpp

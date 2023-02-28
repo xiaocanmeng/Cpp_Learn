@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TEST.dir/main.cpp.o"
+  "CMakeFiles/TEST.dir/src/Iostream.cpp.o"
   "CMakeFiles/TEST.dir/src/Perfect_Forwarding.cpp.o"
   "CMakeFiles/TEST.dir/src/Value_Category.cpp.o"
   "TEST"

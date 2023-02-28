@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Iostream.o: src/Iostream.cpp.o
+
+.PHONY : src/Iostream.o
+
+# target to build an object file
+src/Iostream.cpp.o:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/src/Iostream.cpp.o
+.PHONY : src/Iostream.cpp.o
+
+src/Iostream.i: src/Iostream.cpp.i
+
+.PHONY : src/Iostream.i
+
+# target to preprocess a source file
+src/Iostream.cpp.i:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/src/Iostream.cpp.i
+.PHONY : src/Iostream.cpp.i
+
+src/Iostream.s: src/Iostream.cpp.s
+
+.PHONY : src/Iostream.s
+
+# target to generate assembly for a file
+src/Iostream.cpp.s:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/src/Iostream.cpp.s
+.PHONY : src/Iostream.cpp.s
+
 src/Perfect_Forwarding.o: src/Perfect_Forwarding.cpp.o
 
 .PHONY : src/Perfect_Forwarding.o
@@ -216,6 +243,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Iostream.o"
+	@echo "... src/Iostream.i"
+	@echo "... src/Iostream.s"
 	@echo "... src/Perfect_Forwarding.o"
 	@echo "... src/Perfect_Forwarding.i"
 	@echo "... src/Perfect_Forwarding.s"

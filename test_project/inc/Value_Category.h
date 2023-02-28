@@ -1,3 +1,5 @@
+#ifndef VALUE_CATEGORY
+#define VALUE_CATEGORY
 #include <iostream>
 struct A {
   std::string s;
@@ -44,3 +46,4 @@ struct D : B {
 };
 
 extern int test_value_0();
+#endif

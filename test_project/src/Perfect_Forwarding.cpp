@@ -1,4 +1,4 @@
-#if 0
+#if 1
 #include <boost/type_index.hpp>
 #include <iostream>
 
@@ -14,7 +14,8 @@ template <typename T> void PrintType(T &&param) {
        << endl;
 }
 
-int main(int argc, char *argv[]) {
+void test_Perfect_Forwarding_1() 
+{
   int a = 0;    // 左值
   PrintType(a); // 传入左值
 
@@ -24,6 +25,8 @@ int main(int argc, char *argv[]) {
   PrintType(int(2)); // 传入右值
 }
 #endif
+
+#if 0
 /*
  *  Boost库在这里已经不需要了，我们将其拿掉，可以更简洁的看清楚转发的代码实现
  */
@@ -43,12 +46,12 @@ template <typename T> void PrintType(T &&param) {
   f(std::forward<T>(param)); // 将参数param转发给函数 void f()
 }
 
-void test_Perfect_Forwarding() {
+void test_Perfect_Forwarding_2() {
   int a = 0;
   PrintType(a);      //传入左值
   PrintType(int(0)); //传入右值
 }
-
+#endif
 /*
  *  精简了标准库的代码，在细节上可能不完全正确，但是足以让我们了解转发函数
  * forward 的了
